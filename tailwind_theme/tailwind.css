@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700&display=swap');
-
-/*! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com */
-
-/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com *//*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
 Document
@@ -301,9 +297,7 @@ Add the correct display in Chrome and Safari.
 
 summary {
 	display: list-item;
-}
-
-/**
+}/**
 * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
 * A thin layer on top of normalize.css that provides a starting point more
 * suitable for web applications.
@@ -368,9 +362,10 @@ ul {
 */
 
 html {
-  font-family: 'Space Grotesk', sans-serif; /* 1 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
+
 
 /**
 * Inherit font-family and line-height from 'html' so users can set them as
@@ -553,7 +548,7 @@ video {
   height: auto;
 }
 
-*{
+* {
 	--tw-shadow: 0 0 #0000;
 	--tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
 	--tw-ring-offset-width: 0px;
@@ -562,88 +557,88 @@ video {
 	--tw-ring-offset-shadow: 0 0 #0000;
 	--tw-ring-shadow: 0 0 #0000;
 }
-.container{
+.container {
 	width: 100%;
 }
-@media (min-width: 640px){
+@media (min-width: 640px) {
 
-	.container{
+	.container {
 		max-width: 640px;
 	}
 }
-@media (min-width: 768px){
+@media (min-width: 768px) {
 
-	.container{
+	.container {
 		max-width: 768px;
 	}
 }
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
 
-	.container{
+	.container {
 		max-width: 1024px;
 	}
 }
-@media (min-width: 1280px){
+@media (min-width: 1280px) {
 
-	.container{
+	.container {
 		max-width: 1280px;
 	}
 }
-@media (min-width: 1536px){
+@media (min-width: 1536px) {
 
-	.container{
+	.container {
 		max-width: 1536px;
 	}
 }
-.mx-auto{
+.mx-auto {
 	margin-left: auto;
 	margin-right: auto;
 }
-.flex{
+.flex {
 	display: flex;
 }
-.flex-col{
+.flex-col {
 	flex-direction: column;
 }
-.items-center{
+.items-center {
 	align-items: center;
 }
-.justify-center{
+.justify-center {
 	justify-content: center;
 }
-.bg-gradient-to-r{
+.bg-gradient-to-r {
 	background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
-.from-blue-500{
+.from-blue-500 {
 	--tw-gradient-from: #3b82f6;
 	--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(59, 130, 246, 0));
 }
-.to-purple-500{
+.to-purple-500 {
 	--tw-gradient-to: #8b5cf6;
 }
-.bg-clip-text{
+.bg-clip-text {
 	-webkit-background-clip: text;
 	        background-clip: text;
 }
-.font-bold{
+.font-bold {
 	font-weight: 700;
 }
-.italic{
+.italic {
 	font-style: italic;
 }
-.text-transparent{
+.text-transparent {
 	color: transparent;
 }
-.text-indigo-700{
+.text-indigo-700 {
 	--tw-text-opacity: 1;
 	color: rgba(67, 56, 202, var(--tw-text-opacity));
 }
 
 body, html {min-height: 100vh;}
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
 
-	.lg\:h-screen{
+	.lg\:h-screen {
 		height: 100vh;
 	}
 }
