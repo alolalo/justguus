@@ -12,7 +12,7 @@ tags:
 ---
 # This is a Heading h1
 
-## This is a Heading h2
+## This is epic
 
 ###### This is a Heading h6
 
