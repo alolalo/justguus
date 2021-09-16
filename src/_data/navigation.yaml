@@ -1,7 +1,7 @@
 items:
   - text: Blog
     url: /blog
-  - text: Notes
-    url: /notes
   - text: Resume
     url: /resume
+  - text: Hotline
+    url: https://www.askgu.us
