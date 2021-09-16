@@ -12,3 +12,5 @@ tags:
 We must be first
 
 ![4x design strategy](/static/img/b2e98600-66cc-42eb-981b-27830495ac00.jpeg "notes of a dissident dutch design engineer")
+
+there us no second
