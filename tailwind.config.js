@@ -1,9 +1,10 @@
 module.exports = {
   purge: {
     mode: "all",
-    content: ["./**/*.html"],
+    content: ["./src/**/*.html"],
     options: {
-      whitelist: [],
+      whitelist: 
+      ["./src/keydrop/*.html", "./src/rebox/*.html"],
     },
   },
   theme: {
