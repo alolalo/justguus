@@ -4,7 +4,7 @@ module.exports = {
     content: ["./src/**/*.html"],
     options: {
       whitelist: 
-      ["./src/keydrop/*.html", "./src/rebox/*.html"],
+      ["./src/keydrop/*.*", "./src/rebox/*.*"],
     },
   },
   theme: {
